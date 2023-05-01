@@ -1,4 +1,4 @@
-### Some exercises I did for javascript courses
+### Some exercises I did in Javascript courses
 I tried to leave the code itself with variables, functions and classes in English, but it is possible that some codes have texts written in Portuguese within the operation of the program itself, as if the USER was expected to understand only Portuguese.
 
 ### Contributing
