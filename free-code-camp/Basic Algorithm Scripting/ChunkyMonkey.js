@@ -2,7 +2,7 @@
 into groups the length of size (second argument) and returns 
 them as a two-dimensional array. */
 function chunkArrayInGroups(arr, size) {
-    let result = [];
+  let result = [];
   
   while(arr.length > size) {
       result.push(arr.splice(0, size))
@@ -15,6 +15,6 @@ function chunkArrayInGroups(arr, size) {
     console.log(result)
   
     return result;
-  }
+}
   
-  chunkArrayInGroups(["a", "b", "c", "d"], 2);
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
