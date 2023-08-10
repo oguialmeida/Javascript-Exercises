@@ -11,7 +11,6 @@ const today = HIGH_TEMPERATURES.today;
 const tomorrow = HIGH_TEMPERATURES.tomorrow;
 
 */
-
 const HIGH_TEMPERATURES = {
     yesterday: 75,
     today: 77,

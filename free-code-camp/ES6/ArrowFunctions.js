@@ -4,7 +4,6 @@ to use arrow function syntax. Also, make sure nothing is defined using the keywo
 // var magic = function () {
 //     return new Date();
 // };
-
 const magic = () => {
     return new Date();
 };
