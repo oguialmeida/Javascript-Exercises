@@ -137,7 +137,7 @@ function getRating(watchList) {
         return aux + sum
     })
 
-    averageRating = sumRat + newArr.length
+    averageRating = sumRat / newArr.length
 
     // Only change code above this line
     return averageRating;
