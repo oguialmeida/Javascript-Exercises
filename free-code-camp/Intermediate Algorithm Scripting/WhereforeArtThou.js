@@ -10,14 +10,10 @@ on as the second argument.
 */
 // AINDA IMCOMPLETO
 function whatIsInAName(collection, source) {
-    collection.forEach((e) => {
-        if (Object.values(e).includes(Object.values(source)[0])) {
-            console.log([e])
-            return [e]
-        } else {
-            return []
-        }
-    })
+    let keysObj = Object.keys(source)
+    return collection
+        .filter(e => keysObj
+        .every(key => e[key] === source[key]))
 }
 
 whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" })
